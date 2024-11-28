@@ -57,5 +57,7 @@
     <module>api-gateway</module>
     <module>service-registry</module>
     <module>account-service</module>
+    <module>auth-service</module>
+    <module>users-service</module>
   </modules>
 </project>

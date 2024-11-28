@@ -36,3 +36,61 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Angular specific
+/dist/
+/build/
+.out-tsc/
+/node_modules/
+coverage/
+/.tmp/
+
+# Dependency directories
+/npm-debug.log*
+/yarn-error.log*
+/package-lock.json
+/pnpm-debug.log*
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Compiled files and binaries
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.exe
+*.out
+*.app
+*.log
+*.map
+
+# Miscellaneous
+*.env
+*.log
+*.bak
+*.tmp
+*.orig
+
+# Generated files from Angular CLI
+.angular/
+firebase-debug.log
+firebase-debug.*
+*.cache
+
+e-banking-front
